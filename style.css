@@ -1,0 +1,367 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: #0d152b;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.backmask{
+    width: 400px;
+    position: absolute;
+    top: 150px;
+    left: 725px;
+    opacity: 0.3;
+    filter: blur(3px);
+}
+.header{
+    height: 700px;
+    width: 100%;
+    color: white;
+    font-family: 'Space Grotesk', sans-serif;
+    background: rgb(13,21,43);
+    background: radial-gradient(circle, rgba(13,21,43,1) 68%, rgba(167,77,186,0.8029586834733894) 78%, rgba(13,21,43,1) 87%, rgba(13,21,43,1) 100%);
+}
+.mainmemu{
+    padding-top: 20px;
+    width: 60%;
+    height: 40px;
+    margin-left: 400px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+}
+.button{
+    border: 1px solid white;
+    padding: 10px 40px;
+    transition: all 1s;
+}
+.button:hover{
+    background-color: white;
+    color: black
+}
+.peach{
+    height: 70px;
+}
+.menu1{
+    display: flex;
+}
+.text{
+    margin-left: 30px;
+    transition: all 1s;
+}
+.mainmemu a{
+    color: white;
+    text-decoration: none;
+    font-family: 'Space Grotesk', sans-serif;
+}
+.text:hover{
+    font-size: larger;
+    text-decoration: underline;
+}
+.mainmemu i{
+    color: white;
+}
+.graddyblock{
+    height: 100px;
+    width: 210px;
+    background-color: rgba(167,77,186,0.8029586834733894);
+    position: absolute;
+    top: 680px;
+    left: 140px;
+    border-radius: 20px;
+}
+.graddy{
+    height: 175px;
+    position: relative;
+    bottom: 75px;
+    left: 12px;
+}
+.bos{
+    position: relative;
+    bottom: 170px;
+    left: 150px;
+}
+.swatblock{
+    height: 100px;
+    width: 210px;
+    background-color: rgba(167,77,186,0.8029586834733894);
+    position: absolute;
+    top: 680px;
+    left: 1530px;
+    border-radius: 20px;
+}
+.swat{
+    height: 175px;
+    position: relative;
+    bottom: 75px;
+    left: 35px;
+}
+.sw{
+    position: relative;
+    bottom: 170px;
+    right: 100px; 
+}
+.maskblock{
+    height: 100px;
+    width: 180px;
+    background-color: rgba(167,77,186,0.8029586834733894);
+    position: absolute;
+    top: 280px;
+    left: 70px;
+    border-radius: 20px;
+}
+.mask{
+    height: 175px;
+    position: relative;
+    bottom: 75px;
+    left: 12px;
+}
+.ms{
+    position: relative;
+    bottom: 170px;
+    left: 150px; 
+}
+.textblock{
+    height: 100px;
+    width: 180px;
+    border-bottom: 5px solid rgba(255, 0, 0, 0.548);
+    position: absolute;
+    top: 280px;
+    right: 70px;
+}
+.logosq{
+    width: 800px;
+    margin-left: 500px;
+    margin-top: 50px;
+}
+.logo p{
+    margin-left: 1200px;
+    font-size: 50px;
+    color: rgba(0, 0, 0, 0.63);
+    position: relative;
+    bottom: 70px;
+}
+.push{
+    text-decoration: none;
+    color: white;
+    margin-left: 850px;
+    position: relative;
+    bottom: 20px;
+    border: 1px solid #d43b81;
+    padding: 10px 40px;
+    background-color: #d43b81;
+    border-radius: 10px;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 14px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 14px 5px rgba(0,0,0,0);
+    transition: all 1s;
+}
+.push:hover{
+    border: 1px solid #000000;
+    background-color: #000000;
+    color: white;
+    -webkit-box-shadow: 5px 5px 5px 0px #d43b81, inset 4px 4px 15px 0px #d43b81, 5px 5px 14px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 5px 0px #d43b81, inset 4px 4px 15px 0px #d43b81, 5px 5px 14px 5px rgba(0,0,0,0);
+}
+.instruction{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-around;
+}
+.area{
+    height: 300px;
+    width: 300px;
+    background-color: #4fd6cc;
+    border-radius: 20px;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 14px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 14px 5px rgba(0,0,0,0);
+}
+.head{
+    margin-top: 20px;
+    margin-bottom: 30px;
+    font-size: 30px;
+    text-align: center;
+}
+.head i{
+    background-color: #d43b81;
+    padding: 10px;
+    border-radius: 5px;
+    -webkit-box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 14px 5px rgba(0,0,0,0); 
+    box-shadow: 5px 5px 5px 0px #000000, inset 4px 4px 15px 0px #000000, 5px 5px 14px 5px rgba(0,0,0,0);
+}
+.info{
+    width: 80%;
+    margin-left: 20px;
+}
+.art2{
+    color: white;
+    font-size: 50px;
+    text-align: center;
+    margin-top: 50px;
+}
+.mainitem{
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+    height: 400px;
+    width: 80%;
+    margin-left: 200px;
+}
+.item{
+    background-color: rgba(180, 68, 171, 0.596);
+    display: inline-block;
+    height: 400px;
+    width: 300px;
+    margin-left: 20px;
+    margin-top: 30px;
+    border-radius: 20px;
+}
+.mainitem::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f9f9fd00;
+}
+  
+.mainitem::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background-color: #18aaaa;
+}
+  
+.mainitem::-webkit-scrollbar-track {
+    -webkit-boxshadow: inset 0 0 6px rgba(0,0,0,0.2);
+    border-radius: 10px;
+    background-color: #f9f9fd00;
+}
+.photo img{
+    height: 200px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.info1{
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 40px;
+    margin-top: 50px;
+}
+.buy{
+    border: 1px solid rgba(255, 192, 203, 0.466);
+    background-color: rgba(255, 192, 203, 0.466);
+    padding: 10px 20px;
+    border-radius: 10px;
+    transition: 1s;
+}
+.buy:hover{
+    border: 1px solid rgb(255, 192, 203);
+    background-color: rgb(255, 192, 203);
+}
+.buy a{
+    text-decoration: none;
+    color: #000;
+}
+.article{
+    display: flex;
+    justify-content: space-around;
+    padding-top: 30px;
+    height: 500px;
+    width: 70%;
+    background: rgb(34,193,195);
+    background: linear-gradient(0deg, rgba(34,193,195,1) 0%, rgba(143,0,255,1) 71%);
+    margin-top: 60px;
+    margin-left: 15%;
+}
+.input{
+    margin-top: 40px;
+    height: 20px;
+    border-radius: 5px;
+}
+.area1{
+    width: 300px;
+}
+.area1 b{
+    font-size: 40px;
+}
+.photo1 img{
+    width: 600px;
+    height: 450px;
+}
+.area1 button{
+    width: 100px;
+    border-radius: 5px;
+    background-color: violet;
+}
+.footer{
+    height: 100px;
+    width: 100%;
+    background-color: rgb(235, 75, 208);
+}
+.contact{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.contact_4{
+    margin:0px;
+    height: 33px;
+    width: 33px;
+    border-radius: 100%;
+    margin-right: 10px;
+    border: 2px solid whitesmoke;
+}
+.fa-instagram{
+    color: white;
+    margin-left: 8px;
+    margin-top: 6px;
+    height: 80%;
+    width: 80%;
+}
+.contact_4 a{
+    width: 100%;
+    height: 60px
+}
+.contact_4:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+}
+.contact_4:hover .fa-instagram{
+    color: rgb(233, 139, 16); 
+}
+.fa-telegram-plane{
+    color: white;
+    margin-left: 6px;
+    margin-top: 6px;
+    height: 80%;
+    width: 80%;
+}
+.contact_4:hover .fa-telegram-plane{
+    color: rgb(233, 139, 16); 
+}
+.fa-vk{
+    color: white;
+    margin-left: 6px;
+    margin-top: 6px;
+    height: 80%;
+    width: 80%;
+}
+.contact_4:hover .fa-vk{
+    color: rgb(233, 139, 16); 
+}
+.fa-twitch{
+    color: white;
+    margin-left: 7px;
+    margin-top: 6px;
+    height: 80%;
+    width: 80%; 
+}
+.contact_4:hover .fa-twitch{
+    color: rgb(233, 139, 16); 
+}
+.text_end{
+    width: 100%;
+    text-align: center;
+}
+.front{
+    color: white;
+}
